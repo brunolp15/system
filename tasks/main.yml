@@ -1,6 +1,5 @@
 ---
   - name: Update and Upgrade all Packages
-    register: updatesys
     apt:
       upgrade: yes
       update_cache: yes
